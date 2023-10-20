@@ -67,10 +67,9 @@ header .count {
     border: 3px double;
     display: inline-block;
     padding: 30px 50px;
-    margin: 20px auto 50px auto;
+    margin: auto;
     width: 800px;
     height: 180px;
-    overflow: auto;
     text-align: center;
 }
 
