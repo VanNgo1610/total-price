@@ -65,7 +65,7 @@ function changeColor1() {
 
     if (discount == '5') {
         contentElement.style.color = 'green';
-    } else if (discount == '0'){
+    } else{
         contentElement.style.color = 'red';
     }
 }
@@ -78,7 +78,7 @@ function changeColor2() {
 
     if (discount2 == '5') {
         contentElement.style.color = 'green';
-    } else if (discount2 == '0'){
+    } else{
         contentElement.style.color = 'red';
     }
 }
