@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	padding: 2rem 4rem;
+	line-height: 1.7;
+	font-family: "Nunito Sans", sans-serif;
+	color: white;
+	min-height: 100vh;
+	background-image: linear-gradient(to bottom right, rgb(255, 78, 78), rgb(0, 255, 0));
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	color: #ddd;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+/* --- HEADER --- */
+header h1 {
+	font-family: "Bungee Inline", sans-serif;
+	font-weight: 400;
+	font-size: 3rem;
+	color: white;
+	margin-bottom: 2rem;
+	text-align: center;
+	word-spacing: 3px;
+}
+
+header.container {
+	margin-bottom: 1.5rem;
+}
+
+header .breadcrumb li {
+	float: left;
+	padding: 0 6px;
+}
+
+header .breadcrumb li:first-child {
+	padding-left: 2px;
+}
+
+header .breadcrumb li:not(:last-child)::after {
+	content: " \276f";
+	padding-left: 8px;
+}
+
+header .count {
+	float: right;
+}
+
+/* --- PRODUCT LIST --- */
+.content {
+    background-color: white;
+    border: 3px double;
+    display: inline-block;
+    padding: 30px 50px;
+    margin: 20px auto 50px auto;
+    width: 800px;
+    height: 180px;
+    overflow: auto;
+    text-align: center;
+}
+
+.time{
+	font-size: 20px;
+	color:white;
+}

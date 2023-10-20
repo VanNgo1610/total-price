@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shopping Cart</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Nunito+Sans:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <header class="container">
+            <h1>Shopping Cart</h1>
+
+            <ul class="breadcrumb">
+                <li>Home</li>
+                <li>Shopping Cart</li>
+            </ul>
+        </header>
+
+        <section class="container">
+            <ul class="product"></ul>
+                <div class="content" id="text">
+                    <div class="name">Keychain:</div>
+                    <div class="message number">Number of products:  <span id="product"></span></div>
+                    <div class="message number">Price for each product: JPY <span id="price"></span></div>
+                    <div class="message number">Subtotal: JPY <span id="total"></span></div>
+                    <div class="message number">Discount: <span id="discount"></span> %</div>
+                    <div class="message number">Total: JPY <span id="gtotal"></span></div>
+                </div>
+
+                <br />
+
+                <div class="content" id="text2">
+                    <div class="name">Keyholder: </div>
+                    <div class="message number">Number of products:  <span id="product2"></span></div>
+                    <div class="message number">Price for each product: JPY <span id="price2"></span></div>
+                    <div class="message number">Subtotal: JPY <span id="total2"></span></div>
+                    <div class="message number">Discount: <span id="discount2"></span> %</div>
+                    <div class="message number">Total: JPY <span id="gtotal2"></span></div>
+                </div>
+            </ul>
+        </section>
+
+        <div class="time">
+            <p id="time">Time: </p>
+        </div>
+        <script src="js/calculation.js"></script>
+    </body>
+</html>
